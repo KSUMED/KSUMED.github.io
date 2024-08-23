@@ -1,0 +1,196 @@
+:root {
+    /* Master Colors */
+    --main-bg: #FFC000;
+    --date-bg: #C6D9F1;
+    --special-day: #FFFF00;
+
+    /* Per Entry Colors */
+    --practical-bg: #FFFFCC;
+    --sdl-bg: #F2DBDB;
+    --break-bg: #C2D69B;
+    --pbl-bg: #B6DDE8;
+
+    /* Subject Colors */
+    --ana: #CC0066;
+    --bio: #FF9933;
+    --emb: #9900FF;
+    --his: #669900;
+    --mic: #0099CC;
+    --pat: #6666FF;
+    --pha: #CC00CC;
+    --phy: #FFCC99;
+    --psy: #FFFF00;
+    --rad: #45818E;
+}
+
+/* Main Settings */
+@font-face {
+    font-family: 'FLMPregular';
+    src: url('footlightmtproregular-webfont.woff2') format('woff2'),
+         url('footlightmtproregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FLMPbold';
+    src: url('footlightmtprobold-webfont.woff2') format('woff2'),
+         url('footlightmtprobold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FLMPextrabold';
+    src: url('footlightmtproextrabold-webfont.woff2') format('woff2'),
+         url('footlightmtproextrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'FLMPlight';
+    src: url('footlightmtprolight-webfont.woff2') format('woff2'),
+         url('footlightmtprolight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    font-family: "FLMPregular";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+h6 {
+    font-size: 0.83em;
+    text-wrap: wrap;
+}
+
+table, tr, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+table {
+    width: 920px;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.InfoHeader, .TitleHeader, .ChairPersonHeader {
+    height: 4%;
+    background-color: var(--main-bg);
+}
+
+.WeekDays {
+    height: 3%;
+    background-color: var(--date-bg);
+}
+
+/* End of Main Settings */
+
+/* Special Occasions */
+
+.SpecialDay {
+    background-color: var(--special-day);
+}
+
+.SpecialDay div {
+    width: 20px;
+    transform: translate(80px, 100px);
+}
+
+.SpecialDay h1 {
+    text-wrap: nowrap;
+    transform: rotate(-90deg);
+}
+
+/* End of Special Occasions */
+
+/* Displays */
+
+.LectureDisplay {
+    padding: 0 12px;
+    height: 100%;
+}
+
+.PracticalDisplay {
+    height: 100%;
+    width: 100%;
+    background-color: var(--practical-bg);
+}
+
+.BreakDisplay {
+    height: 100%;
+    background-color: var(--break-bg);
+}
+
+.SDLDisplay {
+    height: 100%;
+    background-color: var(--sdl-bg);
+}
+
+.PBLDisplay {
+    height: 100%;
+    background-color: var(--pbl-bg);
+}
+
+/* End of Displays */
+
+/* Subject classes */
+
+.ana h5{
+    color: var(--ana);
+}
+
+.bio h5{
+    color: var(--bio);
+}
+
+.emb h5{
+    color: var(--emb);
+}
+
+.his h5{
+    color: var(--his);
+}
+
+.mic h5{
+    color: var(--mic);
+}
+
+.pat h5{
+    color: var(--pat);
+}
+
+.pha h5{
+    color: var(--pha);
+}
+
+.phy h5{
+    color: var(--phy);
+}
+
+.psy h5{
+    color: var(--psy);
+}
+
+.rad h5{
+    color: var(--rad);
+}
+
+/* End of Subject classes */
