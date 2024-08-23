@@ -211,8 +211,72 @@ table {
 
 /* Start of RWD */
 
-@media screen and (max-width: 80rem) {
+@media screen and (max-width: 1280px) {
+    .InfoHeader{
+        height: 3vh;
+    }
+    
+    .TitleHeader {
+        height: 5vh;
+    }
 
+    .LectureDisplay {
+        padding: 0 12px;
+        height: 12.5vh;
+    }
+    
+    .PracticalDisplay {
+        background-color: var(--practical-bg);
+        height: 25vh;
+    }
+    
+    .BreakDisplay {
+        background-color: var(--break-bg);
+    }
+    
+    .SDLDisplay {
+        background-color: var(--sdl-bg);
+        height: 12.5vh;
+    }
+    
+    .PBLDisplay {
+        background-color: var(--pbl-bg);
+        height: 25vh;
+    }
 }
 
+
+@media screen and (max-width: 1000px) {
+    .InfoHeader{
+        height: 2vh;
+    }
+    
+    .TitleHeader {
+        height: 3vh;
+    }
+
+    .LectureDisplay {
+        padding: 0 12px;
+        height: 7.5vh;
+    }
+    
+    .PracticalDisplay {
+        background-color: var(--practical-bg);
+        height: 15vh;
+    }
+    
+    .BreakDisplay {
+        background-color: var(--break-bg);
+    }
+    
+    .SDLDisplay {
+        background-color: var(--sdl-bg);
+        height: 7.5vh;
+    }
+    
+    .PBLDisplay {
+        background-color: var(--pbl-bg);
+        height: 15vh;
+    }
+}
 /* END of RWD * /
