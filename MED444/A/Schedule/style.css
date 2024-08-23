@@ -87,18 +87,32 @@ table {
 
 .Flex {
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.InfoHeader, .TitleHeader, .ChairPersonHeader {
-    height: 4%;
+.InfoHeader{
+    background-color: var(--main-bg);
+    height: 4vh;
+}
+
+.TitleHeader {
+    height: 6vh;
+    font-size: larger; font-weight: 900;
+    background-color: var(--main-bg);
+}
+
+.ChairPersonHeader {
     background-color: var(--main-bg);
 }
 
 .WeekDays {
-    height: 3%;
     background-color: var(--date-bg);
+}
+
+.WeekDays th {
+    width: 20%;
 }
 
 /* End of Main Settings */
@@ -125,28 +139,26 @@ table {
 
 .LectureDisplay {
     padding: 0 12px;
-    height: 100%;
+    height: 17.5vh;
 }
 
 .PracticalDisplay {
-    height: 100%;
-    width: 100%;
     background-color: var(--practical-bg);
+    height: 35vh;
 }
 
 .BreakDisplay {
-    height: 100%;
     background-color: var(--break-bg);
 }
 
 .SDLDisplay {
-    height: 100%;
     background-color: var(--sdl-bg);
+    height: 17.5vh;
 }
 
 .PBLDisplay {
-    height: 100%;
     background-color: var(--pbl-bg);
+    height: 35vh;
 }
 
 /* End of Displays */
@@ -193,4 +205,14 @@ table {
     color: var(--rad);
 }
 
+
+
 /* End of Subject classes */
+
+/* Start of RWD */
+
+@media screen and (max-width: 80rem) {
+
+}
+
+/* END of RWD * /
