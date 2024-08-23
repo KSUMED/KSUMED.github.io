@@ -94,11 +94,11 @@ table {
 
 .InfoHeader{
     background-color: var(--main-bg);
-    height: 4vh;
+    height: 40px;
 }
 
 .TitleHeader {
-    height: 6vh;
+    height: 60px;
     font-size: larger; font-weight: 900;
     background-color: var(--main-bg);
 }
@@ -139,12 +139,12 @@ table {
 
 .LectureDisplay {
     padding: 0 12px;
-    height: 17.5vh;
+    height: 160px;
 }
 
 .PracticalDisplay {
     background-color: var(--practical-bg);
-    height: 35vh;
+    height: 320px;
 }
 
 .BreakDisplay {
@@ -153,12 +153,12 @@ table {
 
 .SDLDisplay {
     background-color: var(--sdl-bg);
-    height: 17.5vh;
+    height: 160px;
 }
 
 .PBLDisplay {
     background-color: var(--pbl-bg);
-    height: 35vh;
+    height: 320px;
 }
 
 /* End of Displays */
@@ -211,7 +211,7 @@ table {
 
 /* Start of RWD */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1px) {
     .InfoHeader{
         height: 3vh;
     }
@@ -246,7 +246,7 @@ table {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1px) {
     .InfoHeader{
         height: 2vh;
     }
