@@ -73,6 +73,11 @@ h6 {
     text-wrap: wrap;
 }
 
+h4 {
+    font-size: 0.85em;
+    text-wrap: wrap;
+}
+
 table, tr, th {
     border: 2px solid black;
     border-collapse: collapse;
