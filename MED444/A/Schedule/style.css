@@ -6,6 +6,7 @@
 
     /* Per Entry Colors */
     --practical-bg: #FFFFCC;
+    --clinical-bg: #FFFF00;
     --sdl-bg: #F2DBDB;
     --break-bg: #C2D69B;
     --pbl-bg: #B6DDE8;
@@ -14,11 +15,11 @@
     --ana: #CC0066;
     --bio: #FF9933;
     --emb: #9900FF;
-    --his: #669900;
+    --his: #004400;
     --mic: #0099CC;
     --pat: #6666FF;
     --pha: #CC00CC;
-    --phy: #FFCC99;
+    --phy: #669900;
     --psy: #FFFF00;
     --rad: #45818E;
 }
@@ -87,7 +88,7 @@ table, tr, th {
 table {
     width: 920px;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 .Flex {
@@ -95,6 +96,7 @@ table {
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
+    padding: 0 4px;
 }
 
 .InfoHeader{
@@ -128,28 +130,23 @@ table {
     background-color: var(--special-day);
 }
 
-.SpecialDay div {
-    width: 20px;
-    transform: translate(80px, 100px);
-}
-
-.SpecialDay h1 {
-    text-wrap: nowrap;
-    transform: rotate(-90deg);
-}
-
 /* End of Special Occasions */
 
 /* Displays */
 
 .LectureDisplay {
     padding: 0 12px;
-    height: 160px;
+    height: 120px;
 }
 
 .PracticalDisplay {
     background-color: var(--practical-bg);
-    height: 320px;
+    height: 240px;
+}
+
+.ClinicalDisplay {
+    background-color: var(--clinical-bg);
+    height: 240px;
 }
 
 .BreakDisplay {
@@ -158,12 +155,26 @@ table {
 
 .SDLDisplay {
     background-color: var(--sdl-bg);
-    height: 160px;
+    height: 120px;
 }
 
 .PBLDisplay {
     background-color: var(--pbl-bg);
-    height: 320px;
+    height: 240px;
+}
+
+.Navigation {
+    width: 60%;
+    margin: auto;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    font-weight: 900;
+}   
+
+.Navigation a {
+    color:blueviolet;
 }
 
 /* End of Displays */
