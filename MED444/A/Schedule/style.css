@@ -171,7 +171,7 @@ table {
     justify-content: space-between;
     font-size: 1.25em;
     font-weight: 900;
-}   
+}
 
 .Navigation a {
     color:blueviolet;
@@ -228,6 +228,16 @@ table {
 /* Start of RWD */
 
 @media screen and (max-width: 1px) {
+    .Navigation {
+        width: 60%;
+        margin: auto;
+        margin-top: 3vh;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.25em;
+        font-weight: 900;
+    }
+
     .InfoHeader{
         height: 3vh;
     }
@@ -263,6 +273,16 @@ table {
 
 
 @media screen and (max-width: 1px) {
+    .Navigation {
+        width: 60%;
+        margin: auto;
+        margin-top: 3vh;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.25em;
+        font-weight: 900;
+    }
+    
     .InfoHeader{
         height: 2vh;
     }
