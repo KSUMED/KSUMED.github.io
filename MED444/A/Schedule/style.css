@@ -6,6 +6,7 @@
 
     /* Per Entry Colors */
     --practical-bg: #FFFFCC;
+    --additional-bg: #cdffd7;
     --clinical-bg: #FFFF00;
     --sdl-bg: #F2DBDB;
     --break-bg: #C2D69B;
@@ -141,6 +142,11 @@ table {
 
 .PracticalDisplay {
     background-color: var(--practical-bg);
+    height: 240px;
+}
+
+.AdditionalDisplay {
+    background-color: var(--additional-bg);
     height: 240px;
 }
 
