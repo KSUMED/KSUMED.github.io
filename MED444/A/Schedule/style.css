@@ -5,6 +5,7 @@
     --special-day: #FFFF00;
 
     /* Per Entry Colors */
+    --online-bg: #0070ef;
     --practical-bg: #FFFFCC;
     --additional-bg: #cdffd7;
     --clinical-bg: #FFFF00;
@@ -137,6 +138,12 @@ table {
 
 .LectureDisplay {
     padding: 0 12px;
+    height: 120px;
+}
+
+.OnlineDisplay {
+    padding: 0 12px;
+    background-color: var(--online-bg);
     height: 120px;
 }
 
