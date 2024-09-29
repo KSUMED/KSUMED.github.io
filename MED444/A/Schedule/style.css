@@ -157,6 +157,11 @@ table {
     height: 240px;
 }
 
+.AdditionalDisplayMini {
+    background-color: var(--additional-bg);
+    height: 120px;
+}
+
 .ClinicalDisplay {
     background-color: var(--clinical-bg);
     height: 240px;
