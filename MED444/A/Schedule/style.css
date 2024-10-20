@@ -132,6 +132,10 @@ table {
     background-color: var(--special-day);
 }
 
+.Consolidation {
+    height: 720px;
+}
+
 /* End of Special Occasions */
 
 /* Displays */
