@@ -171,6 +171,11 @@ table {
     height: 240px;
 }
 
+.SmallClinicalDisplay {
+    background-color: var(--clinical-bg);
+    height: 120px;
+}
+
 .BreakDisplay {
     background-color: var(--break-bg);
 }
