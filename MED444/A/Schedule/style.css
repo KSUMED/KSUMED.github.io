@@ -156,6 +156,11 @@ table {
     height: 240px;
 }
 
+.PracticalDisplayMini {
+    background-color: var(--practical-bg);
+    height: 120px;
+}
+
 .AdditionalDisplay {
     background-color: var(--additional-bg);
     height: 240px;
