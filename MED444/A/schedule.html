@@ -1,15 +1,24 @@
 <!DOCTYPE HTML>
 <html>
+    <script>
+        var weekNum = 5
+    </script>
+
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://ksumed.github.io/MED444/A/Week5">
+        <script>
+            document.write('<meta http-equiv="refresh" content="0; url=https://ksumed.github.io/MED444/A/Week' + weekNum + '">')
+        </script>
+        
         <script type="text/javascript">
-            window.location.href = "https://ksumed.github.io/MED444/A/Week5"
+            window.location.href = "https://ksumed.github.io/MED444/A/Week" + weekNum
         </script>
         <title>Page Redirection</title>
     </head>
     <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='https://ksumed.github.io/MED444/A/Week5'>link</a>.
+        <script>
+            document.write('If you are not redirected automatically, follow this <a href="https://ksumed.github.io/MED444/A/Week' + weekNum + '">link</a>.')
+        </script>
+        
     </body>
 </html>
